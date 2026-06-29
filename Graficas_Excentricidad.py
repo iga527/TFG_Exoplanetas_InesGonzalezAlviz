@@ -1,17 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Distribución Masa-Distancia con barras de error
-================================================
-Representa la masa planetaria (columna pl_bmasse: mezcla de masas medidas
-directamente y masas mínimas M_p sin(i) para planetas detectados solo por
-velocidad radial) frente al semieje mayor, para todos los exoplanetas
-confirmados del catálogo NASA con incertidumbres disponibles en ambas
-magnitudes. La acumulación de planetas masivos en órbitas cortas refleja el
-sesgo de selección de los métodos de tránsito y velocidad radial, cuya
-sensibilidad decrece al aumentar el período orbital. Se incluyen cinco planetas
-del Sistema Solar como puntos de referencia: Tierra, Júpiter, Saturno, Urano
-y Neptuno (Marte, Venus y Mercurio quedan por debajo del umbral de masa del
-catálogo actual).
+
 """
 
 import pandas as pd
