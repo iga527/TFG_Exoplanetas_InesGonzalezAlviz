@@ -76,11 +76,3 @@ plt.savefig('Simulacion_Espectros_Atmosfericos.png', dpi=300, bbox_inches='tight
 plt.show()
 
 
-
-
-
-
-
-
-
-print("Alturas H/He (ppm):", {k: round(v) for k, v in alturas_h2o_hhe.items()})
