@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-Created on Mon Apr 20 11:12:58 2026
-
-@author: Usuario
+Calcular límites de la Zona Habitable, según Kopparapu, 
+devolviendo como resultado una tabla.
 """
 
 import numpy as np
