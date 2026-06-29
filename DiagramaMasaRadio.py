@@ -1,33 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Diagrama Masa-Radio Final - TFG
-Version corregida: cobertura completa de datos y curvas teoricas
+Diagrama Masa-Radio Final 
+Cobertura completa de datos y curvas teoricas
 restringidas a su rango de validez fisica.
-
-Que cambia respecto a la version anterior
--------------------------------------------
-1. Las curvas de composicion pura (hierro, terrestre, agua/hielo) se
-   generaban con el mismo exponente fijo (M^0.27) hasta M=10 000 M_tierra.
-   El propio Capitulo 3 explica que esa ecuacion de estado "no describe
-   adecuadamente las envolturas gaseosas de H/He presentes en gigantes
-   gaseosos": las curvas se han limitado a M <= 200 M_tierra, justo donde
-   el texto situa la transicion de Chen & Kipping al regimen de gigantes
-   gaseosos. Comparar contra hierro o agua puros mas alla de ese punto
-   no tiene sentido fisico, y los datos reales lo confirman: la mediana
-   de radio observada apenas cambia entre 1000 y 9600 M_tierra (firma de
-   la presion de degeneracion electronica), mientras que las curvas
-   originales seguian creciendo sin limite.
-
-2. La clasificacion de los datos por calidad (Grupo A: masa medida;
-   Grupo B: Msini; Grupo C: radio imputado) dejaba fuera, sin avisar,
-   cualquier planeta cuyo campo "pl_bmassprov" no fuera exactamente
-   'Mass' o 'Msini'. En el catalogo real existe una tercera categoria,
-   'M-R relationship' (masa estimada a partir del radio, no medida),
-   que no encajaba en ningun grupo. Esto eliminaba 2713 de 6160 filas
-   (un 44% de la muestra), incluyendo planetas con RADIO medido. Se
-   anade un cuarto grupo, "Radio medido, masa imputada", que recoge
-   exactamente esos casos. Los cuatro grupos juntos vuelven a sumar
-   el total de filas del catalogo.
 """
 
 import pandas as pd
