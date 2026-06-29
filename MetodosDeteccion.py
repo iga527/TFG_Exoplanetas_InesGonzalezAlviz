@@ -1,35 +1,10 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Jun 23 12:03:07 2026
-
-@author: Usuario
-"""
-
-#!/usr/bin/env python3
-"""
-Barras_Metodos_Deteccion.py
-============================
-Figura 6.1 del TFG: distribución de exoplanetas confirmados por método de
+Barras sobre los metodos de deteccion
+Distribución de exoplanetas confirmados por método de
 descubrimiento, representada como diagrama de barras horizontales en escala
 logarítmica.
 
-Motivación:
-    La escala logarítmica permite visualizar simultáneamente el dominio del
-    tránsito (73.4%, N=4523) y los métodos minoritarios (Cinemática de disco,
-    N=1) sin comprometer la legibilidad. El eje X en escala log extiende el
-    espacio visual hacia los métodos de baja representación.
-
-    Los cuatro métodos principales (Tránsito, Velocidad radial, Microlentes,
-    Imagen directa) se destacan en steelblue; los métodos secundarios se
-    muestran en un tono más claro para priorizar visualmente la jerarquía.
-
-Nota: el catálogo de la NASA Exoplanet Archive asigna UN único método
-de descubrimiento por entrada, correspondiente al método de primera
-confirmación. Muchos planetas han sido caracterizados posteriormente por
-técnicas complementarias, pero esa información no está recogida en este campo.
-
-Datos: planetas.csv (NASA Exoplanet Archive, N=6160).
-Dependencias: pandas, matplotlib.
 """
 
 import pandas as pd
