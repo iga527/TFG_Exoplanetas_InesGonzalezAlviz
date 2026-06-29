@@ -1,46 +1,10 @@
 # -*- coding: utf-8 -*-
 """
-Created on Wed Jun 24 22:25:19 2026
-
-@author: Usuario
-"""
-
-"""
 Comparacion entre velocidad radial (1D) y astrometria (2D).
-
-Objetivo de la figura
-----------------------
-Mostrar que la velocidad radial y la astrometria no son dos fenomenos
+La velocidad radial y la astrometria no son dos fenomenos
 fisicos distintos, sino dos proyecciones distintas del mismo movimiento
-baricentrico de la estrella:
+baricentrico de la estrella.
 
-    - La velocidad radial mide solo la componente de la velocidad a
-      lo largo de la linea de vision (una unica coordenada, 1D).
-    - La astrometria mide la posicion proyectada de la estrella sobre
-      el plano del cielo (dos coordenadas, 2D).
-
-Para dejarlo explicito, se marcan en ambos paneles los mismos seis
-instantes orbitales (numerados 1-6). Cada instante es un unico
-numero en el panel de velocidad radial, pero un punto con dos
-coordenadas en el panel de astrometria.
-
-Idea geometrica del codigo
----------------------------
-1. Se resuelve la ecuacion de Kepler para obtener la posicion de la
-   estrella en su propio plano orbital, con el periastro orientado
-   un angulo omega (argumento del periastro) respecto al eje de
-   referencia.
-2. Esa orbita plana se inclina un angulo i alrededor del eje x (la
-   linea de nodos), exactamente como en la figura de la geometria de
-   la inclinacion orbital.
-3. Las dos coordenadas que quedan en el plano del cielo, (X, Y), son
-   lo que mide la astrometria.
-4. La velocidad radial se calcula con la formula analitica estandar
-   de la ecuacion (2.7) del TFG:
-
-        v_r(t) = K [cos(omega + nu(t)) + e cos(omega)]
-
-   donde nu(t) es la anomalia verdadera.
 """
 
 import numpy as np
