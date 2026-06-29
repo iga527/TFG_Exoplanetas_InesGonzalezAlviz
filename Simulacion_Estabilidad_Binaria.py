@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-Simulacion del Problema Restringido de Tres Cuerpos (PR3C): estabilidad
-orbital en sistemas binarios..
+Simulacion del Problema Restringido de Tres Cuerpos (PR3C) 
+Estabilidad orbital en sistemas binarios.
 
 """
 
