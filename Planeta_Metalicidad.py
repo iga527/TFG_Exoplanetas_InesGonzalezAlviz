@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Gráficas de Demografía Planetaria Independientes - TFG
+Gráficas de Demografía Planetaria Independientes 
 Separación de Masa-Distancia y Excentricidad-Distancia
 """
 
