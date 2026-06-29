@@ -1,29 +1,9 @@
 # -*- coding: utf-8 -*-
 """
-Created on Mon Jun 22 11:33:45 2026
-
-@author: Usuario
-"""
-
-#!/usr/bin/env python3
-"""
 Distribucion_Teq_Equilibrio.py
-===============================
-Figura 4.X del TFG: distribución de temperaturas de equilibrio (T_eq)
+Distribución de temperaturas de equilibrio (T_eq)
 del catálogo de exoplanetas confirmados (NASA Exoplanet Archive).
 
-Motivación física:
-    T_eq = [ L_*(1 - A_B) / (16 π σ a²) ]^(1/4)
-    es la temperatura radiativa del planeta asumiendo redistribución
-    global completa (f = 1). Su distribución en el catálogo refleja
-    el sesgo del método de tránsito: favorece órbitas cortas →
-    planetas calientes → T_eq >> T_eq(Tierra ≈ 255 K).
-
-Datos: planetas.csv (NASA Exoplanet Archive, N=6160 planetas
-confirmados). El script debe ejecutarse desde el directorio que
-contiene planetas.csv, o bien ajustar la variable RUTA_CSV.
-
-Dependencias: pandas, numpy, matplotlib.
 """
 
 import pandas as pd
